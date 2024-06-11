@@ -1,0 +1,44 @@
+.card {
+    width: 220px;
+    height: 220px;
+    color: #ffffff;
+    font-size: 17px;
+    background: #112949 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 30px;
+    margin: 1rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    color: #3CC3F2;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.image {
+    padding-right: 5%;
+    width: 60px;
+    height: 70px;
+    /* margin: 2%; */
+}
+
+@media screen and (max-width: 1375px) {
+    .card {
+        width: 200px;
+        height: 180px;
+        font-size: 14px;
+        padding: 20px;
+        margin: 0.6rem;
+    }
+
+    .heading{
+        font-size: 16px;
+    }
+
+    .image{
+        width: 50px;
+    }
+}

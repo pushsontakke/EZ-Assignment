@@ -1,0 +1,68 @@
+.form-field{
+    display: flex;
+}
+
+input {
+    font-size: 19px;
+    font-family: "Poppins", sans-serif !important;
+    width: 60%;
+    padding: 1.5%;
+    margin: 2% 2% 0 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ABABAB;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.input-email:focus {
+    outline: none;
+}
+
+.submit-btn {
+    width: 30%;
+    background: #EA7B2C 0% 0% no-repeat padding-box;
+    border: 1px solid #EA7B2C;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.error, .success, .invalid{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+.error, .invalid{
+    color: red;
+}
+
+.success{
+    color: rgb(0, 214, 0);
+}
+
+@media screen and (max-width: 1375px) {
+    input{
+        font-size: 16px;
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .form{
+        width: 100%;
+    }
+
+    .form-field {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input{
+        width: 90%;
+    }
+
+    .submit-btn{
+        width: 40%;
+    }
+
+}
