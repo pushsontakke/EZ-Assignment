@@ -56,12 +56,12 @@
 
     }
 
-    .form {
+    /* .form {
         position: absolute;
         bottom: -80px;
         width: 60%;
         margin: 10% 15%;
-    }
+    } */
 }
 
 @media screen and (max-width: 880px) {
