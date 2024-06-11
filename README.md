@@ -2,7 +2,7 @@
 
 This project is a single-page web application built using ReactJS, which is designed to be responsive and includes a simple form integrated with a provided API. The form includes front-end validations and handles API responses appropriately.
 
-##Project Live Link: https://ez-assignment-nine.vercel.app/
+## Project Live Link: https://ez-assignment-nine.vercel.app/
 
 ## Project Requirements
 
